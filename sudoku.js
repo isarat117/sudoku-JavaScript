@@ -48,7 +48,7 @@ const solveSudoku=(board)=> {
     }
   }
 
-  function printSudoku(board) {
+  const printSudoku=(board)=> {
     for (let row = 0; row < 9; row++) {
       let rowString = '';
       for (let col = 0; col < 9; col++) {
